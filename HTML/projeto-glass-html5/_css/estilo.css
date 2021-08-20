@@ -32,10 +32,10 @@ header#cabecalho {
 header#cabecalho h1{
     font-family: 'FonteLogo';
     font-size: 30pt;
-    color: #606060;
+    color: #7e7e7e;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;
-    margin: 5px 0px 0px 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 
@@ -43,12 +43,12 @@ header#cabecalho h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
     color: #888888;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1050px;
+    left: 990px;
     top: 50px;
 }
 
@@ -92,7 +92,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 650px;
+    left: 580px;
 }
 nav#menu li {
     display: inline-block;
@@ -118,4 +118,40 @@ nav#menu a {
 
 nav#menu a:hover {
     color: #dddddd;
+}
+
+section#corpo {
+    display: block;
+    width: 480px;
+    float: left;
+    border-right: 1px #606060 solid;
+    padding-right: 20px;
+    margin-left:6px;
+}
+
+aside#lateral {
+    display: block;
+    width: 380px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px #606060 solid;
+       
+}
+
+footer#rodape p {
+    text-align: center;     
+}
+
+footer#rodape a {
+    color: black;
+    text-decoration: none;
+    transition: color .25s;
+}
+
+footer#rodape a:hover {
+    color: blue;
+    text-decoration: underline;
 }
