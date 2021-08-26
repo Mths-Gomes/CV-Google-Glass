@@ -81,8 +81,6 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
 
-/* Formatação do Menu*/
-
 nav#menu {
     display: block;
 }
@@ -147,11 +145,27 @@ table#spec td.ce {
     vertical-align: top;
     text-align: right;
     background-color: #606060;
-    color: #dddddd;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 table#spec td.cd {
     text-align: left;
+    background-color: #cecece;
+}
+
+table#spec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#spec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 9px;
 }
 
 aside#lateral {
@@ -180,4 +194,3 @@ footer#rodape a:hover {
     color: blue;
     text-decoration: underline;
 }
-
