@@ -129,6 +129,31 @@ section#corpo {
     margin-left:6px;
 }
 
+table#spec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#spec td {
+    border: 1px solid #606060;
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table#spec td.ce {
+    vertical-align: top;
+    text-align: right;
+    background-color: #606060;
+    color: #dddddd;
+}
+
+table#spec td.cd {
+    text-align: left;
+}
+
 aside#lateral {
     display: block;
     width: 380px;
@@ -155,3 +180,4 @@ footer#rodape a:hover {
     color: blue;
     text-decoration: underline;
 }
+
