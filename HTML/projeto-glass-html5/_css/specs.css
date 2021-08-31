@@ -9,7 +9,8 @@ iframe#frame-spec {
     width: 400px;
     height: 280px;
     border: none;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #frame-spec::-webkit-scrollbar {
