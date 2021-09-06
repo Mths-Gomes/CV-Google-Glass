@@ -210,6 +210,19 @@ table#spec caption span {
     margin-top: 9px;
 }
 
+video#video-01 {
+    display: block;
+    position: relative;
+    width: 470px;
+    bottom: 15px;
+}
+
+video#video-02 {
+    display: block;
+    position: relative;
+    width: 380px;
+}
+
 aside#lateral {
     display: block;
     width: 380px;
