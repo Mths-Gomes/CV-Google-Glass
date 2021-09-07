@@ -58,7 +58,7 @@ header#cabecalho h2{
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 990px;
+    left: 1135px;
     top: 60px;
 }
 
@@ -100,7 +100,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 550px;
+    left: 700px;
 }
 nav#menu li {
     display: inline-block;
